@@ -13,3 +13,6 @@ This package contains OOPS and Java work.
 
 []Comment out other principles
 
+[]Add Interfaces
+
+
