@@ -4,6 +4,7 @@ public class Register extends GroceryStore {
 
     Double total;
     Double cashInRegister;
+    int registerNumber;
 
 
 }
