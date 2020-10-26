@@ -12,7 +12,10 @@ public class GroceryStore {
 //        System.out.println("GroceryStore");
     }
 
-//    public void
+    //This is an example of polymorphism, which allows an object to take many forms, e.g. each object can have different fields/methods at compile time
+    public void slogan(){
+        System.out.println("Test");
+    }
 
     public void scheduleEmployee() {
         isWorking = true;

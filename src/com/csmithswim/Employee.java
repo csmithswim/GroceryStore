@@ -32,6 +32,8 @@ public class Employee extends GroceryStore {
     return fName;
     }
 
+    //This method is to illustrate polymorphism, make sure that the constructor in both parent and subclasses are disabled to be able to use.
+
 
 
 
