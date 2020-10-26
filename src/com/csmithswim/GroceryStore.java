@@ -9,12 +9,11 @@ public class GroceryStore {
 
     public GroceryStore(boolean isWorking){
         this.isWorking = isWorking;
-//        System.out.println("GroceryStore");
     }
 
     //This is an example of polymorphism, which allows an object to take many forms, e.g. each object can have different fields/methods at compile time
     public void slogan(){
-        System.out.println("Test");
+        System.out.println("Hello I Am A Grocery Store");
     }
 
     public void scheduleEmployee() {
