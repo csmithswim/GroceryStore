@@ -1,18 +1,30 @@
 This package contains OOPS and Java work.
 
----
-[]Add constructor to grocery store class that makes more sense.
+Abstract classes and methods - When you declare a class but don't instantiate it,you can only extend it.
 
-[]Implement upcasting and downcasting to package
+An abstract method just has the declaration, there is no body to the method. 
 
-[x]Implement hashmap/equals overriding method
+A final class means we cannot extend it. They are rarely used. Strings cannot be final because they are immutable.
 
-[x]Implement override method that has pragmatic value
+A final method cannot be overridden.
 
-[x]Implement polymorphism methods
+Try to implement just one or two levels of inheritance. 
 
-[x]Comment out other principles
+Multiple inheritance is not supported in Java and is discouraged.
 
-[]Add Interfaces
+Interfaces are used to build loosely-coupled, extensible, testable applications.
+
+Interface - What should be done. I.e. data compression, encryption, sorting and searching.
+
+Classes - How it should be done. 
+
+Dependency Injection - our classes should not instantiate their dependencies.
+
+With dependency injection classes should not create and use objects, only one of the two, this is called the separation of concerns.
+
+Dependency injection can be done with constructor inject, setter injection or method injection.
+
+
+
 
 

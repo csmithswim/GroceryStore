@@ -1,4 +1,5 @@
 package com.csmithswim;
 
-public class TaxCalculator {
+public interface TaxCalculator {
+    double calculateTax();
 }
