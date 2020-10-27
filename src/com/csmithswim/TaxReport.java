@@ -1,15 +1,21 @@
 package com.csmithswim;
 
 public class TaxReport {
-    private TaxCalculator2018 calculator;
+    private TaxCalculator calculator;
 
-
-    public TaxReport() {
-        calculator = new TaxCalculator2018(100_000);
+    //Using constructor injection
+    public TaxReport(TaxCalculator calculator) {
+        this.calculator = calculator;
     }
 
-    public void show() {
+    //Method injection
+    public void show(TaxCalculator calculator) {
         var tax = calculator.calculateTax();
         System.out.println(tax);
+    }
+
+    //Setter that injects a dependency in the class
+    public void setCalculator(TaxCalculator calculator){
+        this.calculator = calculator;
     }
 }
